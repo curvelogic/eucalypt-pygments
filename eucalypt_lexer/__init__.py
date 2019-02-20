@@ -4,7 +4,7 @@ from pygments.token import *
 class EucalyptLexer(RegexLexer):
 
     name = 'Eucalypt'
-    aliases = ['eucalypt']
+    aliases = ['eucalypt', 'eu']
     filenames = ['*.eu']
 
     block_anaphora = "•\d*"
